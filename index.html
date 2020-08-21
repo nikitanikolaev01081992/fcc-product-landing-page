@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/normalize.css" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <script src="https://kit.fontawesome.com/f532042dfc.js" crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+            defer
+        ></script>
+        <script src="./scripts/script.js" defer></script>
+        <title>Choco&middot;Pie</title>
+    </head>
+    <body>
+        <header id="header">
+            <img id="header-img" src="./images/logo.png" alt="" />
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#features" class="nav-link button">Features</a></li>
+                    <li><a href="#video" class="nav-link button">How To Eat</a></li>
+                    <li><a href="#price-cards" class="nav-link button">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="features" class="feature-container">
+                <div class="feature-item">
+                    <i class="fas fa-apple-alt feature-item__icon"></i>
+                    <h2 class="feature-item__header">Feature 1</h2>
+                    <p class="feature-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam,
+                        purus nec ornare mollis, diam enim eleifend sem, tincidunt vulputate ipsum
+                        ante quis eros.
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-seedling feature-item__icon"></i>
+                    <h2 class="feature-item__header">Feature 2</h2>
+                    <p class="feature-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam,
+                        purus nec ornare mollis, diam enim eleifend sem, tincidunt vulputate ipsum
+                        ante quis eros.
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check feature-item__icon"></i>
+                    <h2 class="feature-item__header">Feature 3</h2>
+                    <p class="feature-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam,
+                        purus nec ornare mollis, diam enim eleifend sem, tincidunt vulputate ipsum
+                        ante quis eros.
+                    </p>
+                </div>
+            </section>
+
+            <section class="video-container">
+                <iframe
+                    id="video"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/rKH2W_2ADLA"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </section>
+
+            <section id="price-cards">
+                <div class="price-cards__item card-item">
+                    <h2 class="card-item__header">Small package (6)</h2>
+                    <p class="card-item__price">$100</p>
+                    <ul class="card-item__pos">
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                    </ul>
+                    <button class="card-item__button button">SELECT</button>
+                </div>
+                <div class="price-cards__item card-item">
+                    <h2 class="card-item__header">Big package (12)</h2>
+                    <p class="card-item__price">$190</p>
+                    <ul class="card-item__pos">
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                    </ul>
+                    <button class="card-item__button button">SELECT</button>
+                </div>
+                <div class="price-cards__item card-item">
+                    <h2 class="card-item__header">Dark package (12)</h2>
+                    <p class="card-item__price">$199</p>
+                    <ul class="card-item__pos">
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum dolor</li>
+                    </ul>
+                    <button class="card-item__button button">SELECT</button>
+                </div>
+            </section>
+
+            <section class="email-form-container">
+                <form action="https://www.freecodecamp.com/email-submit" id="form" target="_blank">
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email adress"
+                        required
+                    />
+                    <input class="button" type="submit" id="submit" value="Get Started" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copyright">Copyright 2020, Fake Choco&middot;Pie</div>
+        </footer>
+    </body>
+</html>
